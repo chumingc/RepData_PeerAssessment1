@@ -284,6 +284,7 @@ dim(weekdaySteps)
 ```{r combineData}
 meanDayOfWeekTotalSteps <- rbind(weekendSteps, weekdaySteps)
 head(meanDayOfWeekTotalSteps)
+tail(meanDayOfWeekTotalSteps)
 dim(meanDayOfWeekTotalSteps)
 ```
 

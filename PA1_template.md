@@ -484,6 +484,20 @@ head(meanDayOfWeekTotalSteps)
 ```
 
 ```r
+tail(meanDayOfWeekTotalSteps)
+```
+
+```
+##     interval meanSteps dayOfWeek
+## 571     2330    3.0361   weekday
+## 572     2335    2.2486   weekday
+## 573     2340    2.2403   weekday
+## 574     2345    0.2633   weekday
+## 575     2350    0.2969   weekday
+## 576     2355    1.4101   weekday
+```
+
+```r
 dim(meanDayOfWeekTotalSteps)
 ```
 
